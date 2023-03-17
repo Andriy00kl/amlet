@@ -1,8 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 body{
-    background-image: url(https://www.psdgraphics.com/file/firewall-background.jpg);
+    background-image: url(https://mobimg.b-cdn.net/v3/fetch/94/94c56e15f13f1de4740a76742b0b594f.jpeg);
 
 }
 header{
+    padding: 2%;
+    margin: 1%;
+    border-radius: 20%;
     background-color: gold;
-    color:aliceblue;
+    color:black ;
+}
+div{
+    margin: 1%;
+    height: 500px;
+    background-color: goldenrod;
+    background-origin: solid black 1px;
+}
+img{
+    width: 10%;
+    height: 10%;
+}
+#ad{
+    
+    background-color: rgba(0,0,0,0.5);
 }
