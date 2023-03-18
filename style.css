@@ -4,26 +4,75 @@
 }
 body{
     background-image: url(https://mobimg.b-cdn.net/v3/fetch/94/94c56e15f13f1de4740a76742b0b594f.jpeg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
 
 }
 header{
     padding: 2%;
     margin: 1%;
+    width: 70%;
+    height: 10%;
     border-radius: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: gold;
     color:black ;
 }
+img{
+    width: 6%;
+    height: 80%;
+}
 div{
     margin: 1%;
-    height: 500px;
     background-color: goldenrod;
     background-origin: solid black 1px;
 }
-img{
-    width: 10%;
-    height: 10%;
+main{
+    width: 85%;
+    height: 80%;
+    align-items: center;
+    text-align: center;
+    background-color: darkgoldenrod;
 }
-#ad{
-    
-    background-color: rgba(0,0,0,0.5);
+#div-joke{
+    padding: 10px;
+    width: 96%;
+    height: 90%;
+    overflow-y: auto;
+}
+#Jokes-children{
+    background-color:chocolate;
+}
+#div-joke::-webkit-scrollbar{
+    width: 10px;
+}
+#div-joke::-webkit-scrollbar-thumb{
+    border-radius: 1rem;
+    background-color: aliceblue;
+}
+.Jokes{
+    background-color: chocolate;
+    border: solid 2px black ;
+    display: flex;
+    align-items: center;
+}
+form{
+    padding: 10px;
+    width: 85%;
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#text{
+    width: 30%;
+}
+#button-form{
+    width: 13%;
+    height: 100%;
 }
