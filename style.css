@@ -3,7 +3,7 @@
     padding: 0%;
 }
 body{
-    background-image: url(https://mobimg.b-cdn.net/v3/fetch/94/94c56e15f13f1de4740a76742b0b594f.jpeg);
+    background-image: url(https://th.bing.com/th/id/OIP.-e9P6qIPPkz1P55VZQ4TZwHaEK?pid=ImgDet&rs=1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,10 +22,6 @@ header{
     justify-content: space-around;
     background-color: gold;
     color:black ;
-}
-img{
-    width: 6%;
-    height: 80%;
 }
 div{
     margin: 1%;
